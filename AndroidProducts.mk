@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_mojito.mk
+    $(LOCAL_DIR)/evolution_mojito.mk
+
+COMMON_LUNCH_CHOICES := \
+    evolution_monet-user \
+    evolution_monet-userdebug \
+    evolution_monet-eng
